@@ -9,7 +9,7 @@ marvelheroes é um projeto de consulta a https://developer.marvel.com/docs
 <li>Love for Marvel</li>
 </ul>
 
-<h2>Funtions</h2>
+<h2>Functions</h2>
 <h4>http_request_builder</h4>
 <p>as_get($url, $query_params = [])</p>
 <p> $url => endpoint a ser consultado</p>
