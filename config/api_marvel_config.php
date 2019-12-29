@@ -1,8 +1,8 @@
 <?php
 
-$public_key = '516ca093fc5f91cf30d467b140987746';
+$public_key = '';
 
-$private_key = '2f0790c794257024b302cad1eccca1827c433077';
+$private_key = '';
 
 $base_url = 'http://gateway.marvel.com/v1/public/';
 
