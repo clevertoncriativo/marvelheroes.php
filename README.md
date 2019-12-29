@@ -40,7 +40,8 @@ marvelheroes é um projeto de consulta a https://developer.marvel.com/docs
         
     $response = as_get($url, $query_params);
 
-
+<h2>Pages</h2>
+<h4>Namespace que contem as páginas</h4>
 
 
 
