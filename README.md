@@ -6,7 +6,6 @@ marvelheroes é um projeto de consulta a https://developer.marvel.com/docs
 <ul>
 <li>PHP 5.6 ou superior</li>
 <li>Marvel API key</li>
-<li>Love for Marvel</li>
 </ul>
 
 <h2>Functions</h2>
