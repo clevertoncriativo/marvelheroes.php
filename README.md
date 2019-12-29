@@ -14,6 +14,23 @@ marvelheroes é um projeto de consulta a https://developer.marvel.com/docs
 <p>as_get($url, $query_params = [])</p>
 <p> $url => endpoint a ser consultado</p>
 <p> $query_params => array chave valor com os paramentros da query_string</p>
+<h4>Exemplo:</h4>
+
+    include("http_request_builder.php");
+    
+    $ts = time();
+
+    $url = $base_url . 'characters/' . $characterId . '?';
+                
+    $hash = md5($ts . $private_key . $public_key);
+    
+    $query_params = [
+    'apikey' => $public_key,
+    'ts' => $ts,
+    'hash' => $hash,
+    ];
+        
+    $response = as_get($url, $query_params);
 
 
 
